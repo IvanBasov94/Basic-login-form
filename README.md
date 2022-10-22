@@ -19,9 +19,9 @@ Authorization form with basic parameters.
 The project is made in version React 18.2.0.
 
 Clone the repository and run the following:
-* `npm install`;
-* `npm start`;
-* `http://localhost:3000/`
+* `npm install`
+* `npm start`
+* navigate to `http://localhost:3000/`
 * To authorize a user, enter: </br>
   email: `admin@mail.ru` </br>
   password: `admin`
