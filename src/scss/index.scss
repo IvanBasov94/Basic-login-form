@@ -1,0 +1,61 @@
+@import './variables';
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: Montserrat, sans-serif;
+}
+
+input,
+button {
+   appearance: none;
+   background: none;
+   border: none;
+   outline: none;
+}
+
+.app {
+   height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-color: #53565A;
+}
+
+.welcome {
+   width: 100%;
+   max-width: 480px;
+   background-color: $colorWhite;
+   padding: 15px 30px;
+
+   & h2 {
+      color: $colorGray;
+      font-size: 28px;
+      font-weight: 500;
+      margin-bottom: 30px;
+
+      & span {
+         color: $colorPink;
+         font-weight: 700;
+      }
+   }
+
+   & button {
+      display: block;
+      padding: 10px 15px;
+      border-radius: 8px;
+      background-image: linear-gradient(to right,
+            $colorYellow 50%, $colorYellow 50%, $colorRed);
+      background-size: 200%;
+      background-position: 0%;
+      transition: 0.4s;
+      color: $colorWhite;
+      font-weight: 700;
+      cursor: pointer;
+
+      &:hover {
+         background-position: 100% 0%;
+      }
+   }
+}
