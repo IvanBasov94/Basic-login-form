@@ -29,19 +29,19 @@ button {
    background-color: $colorWhite;
    padding: 15px 30px;
 
-   & h2 {
+   h2 {
       color: $colorGray;
       font-size: 28px;
       font-weight: 500;
       margin-bottom: 30px;
 
-      & span {
+      span {
          color: $colorPink;
          font-weight: 700;
       }
    }
 
-   & button {
+   button {
       display: block;
       padding: 10px 15px;
       border-radius: 8px;
