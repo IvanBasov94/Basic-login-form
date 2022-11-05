@@ -13,10 +13,10 @@ const LoginForm = ({ login, error }) => {
 
    return (
       <form onSubmit={submitHandler}>
-         <div className={styles.form__inner}>
+         <div className={styles.inner}>
             <h2>Авторизация</h2>
             {(error !== '') ? (<div className={styles.error}>{error}</div>) : ""}
-            <div className={styles.form__group}>
+            <div className={styles.group}>
                <label htmlFor="name">Имя:</label>
                <input
                   type="text"
@@ -29,7 +29,7 @@ const LoginForm = ({ login, error }) => {
                   value={details.name}
                />
             </div>
-            <div className={styles.form__group}>
+            <div className={styles.group}>
                <label htmlFor="email">Почта:</label>
                <input
                   type="email"
@@ -42,7 +42,7 @@ const LoginForm = ({ login, error }) => {
                   value={details.email}
                />
             </div>
-            <div className={styles.form__group}>
+            <div className={styles.group}>
                <label htmlFor="password">Пароль:</label>
                <input
                   type="password"
